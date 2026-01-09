@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 26px 22px;
+  border-radius: 14px;
+  max-width: 300px;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 16px;
+}
+
+nav a {
+  color: orange;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin: 0 8px;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+.profile {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid orange;
+  margin-bottom: 12px;
+}
+
+.tagline {
+  color: orange;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* khusus about */
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.about-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  object-fit: cover;
+}
+
+.about-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
