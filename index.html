@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Website Siraku</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Sirakku</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url("bg.jpg");
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      color: white;
+    }
+
+    .profile {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid orange;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Halo, gw Siraku</h1>
-<p>Ini website tentang gw, Termul user📱</p>
+  <div class="card">
+    <img src="profile.jpg" class="profile">
+    <h1>Sirakku</h1>
+    <p>vibecoding dari HP 📱</p>
+  </div>
 
 </body>
 </html>
