@@ -168,3 +168,11 @@ nav a:hover::after {
   margin: 0;
   font-size: 16px;
 }
+
+.back {
+  display: inline-block;
+  margin-top: 16px;
+  text-decoration: none;
+  color: orange;
+  font-size: 14px;
+}
