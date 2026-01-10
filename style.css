@@ -176,3 +176,8 @@ nav a:hover::after {
   color: orange;
   font-size: 14px;
 }
+
+.entry {
+  display: block;
+  margin-top: 14px;
+}
