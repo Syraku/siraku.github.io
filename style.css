@@ -135,3 +135,16 @@ nav a:hover::after {
 .project p {
   margin: 4px 0;
 }
+
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 0;
+}
+
+.project-link:hover {
+  color: orange;
+  transform: translateX(4px);
+  transition: 0.2s ease;
+}
