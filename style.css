@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
 }
 
@@ -20,7 +21,7 @@ body {
   padding: 26px 22px;
   border-radius: 14px;
   max-width: 420px;
-  margin: auto;
+  margin: 40px auto;
   text-align: center;
 }
 
