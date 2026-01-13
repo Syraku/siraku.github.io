@@ -226,3 +226,35 @@ nav a:hover {
   color: orange;
   transform: translateY(-2px);
 }
+
+.contact {
+  margin-top: 28px;
+}
+
+.contact h2 {
+  font-size: 1.1rem;
+  margin-bottom: 14px;
+  color: #ffa500;
+}
+
+.contact-links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 165, 0, 0.15);
+  color: #ffa500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.contact-links a:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 165, 0, 0.3);
+}
